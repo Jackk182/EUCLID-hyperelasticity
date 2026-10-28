@@ -1,0 +1,18 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug EUCLID",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/drivers/main.py",
+            "python": "/home/giacomo/anaconda3/envs/euclid/bin/python",
+            "cwd": "${workspaceFolder}/drivers",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}

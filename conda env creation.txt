@@ -1,0 +1,14 @@
+conda create -n euclid python=3.9 pip
+conda activate euclid
+
+python -m pip install -r requirements.txt
+
+python -m pip install \
+  "typing-extensions>=4.6.0" \
+  "packaging>=22" \
+  "importlib-metadata>=4.8.3" \
+  "python-dateutil>=2.8.2"
+
+python -m pip install "python-dateutil==2.8.2"
+
+python -m pip install scikit-learn
